@@ -1,7 +1,103 @@
 .App {
   text-align: center;
 }
+.h1sc {
+  margin-top: -5px;
+}
+.h1sc1 {
+  margin-top: -5px;
+}
+.CreateTodoButton {
+  background-color: #e65441;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  bottom: 24px;
+  right: 24px;
+  margin-top: -15px;
+  margin-bottom: -75px;
+  margin-left: 254px;
+  font-weight: bold;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  transform: rotate(0);
+  transition: 0.3s ease;
+}
 
+.CreateTodoButton:hover {
+  transform: rotate(224deg);
+}
+.inputxd {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #f95656 0%, #f1bf4c 100%);
+}
+.inputxd1 {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #c8d0df;
+  background: linear-gradient(90deg, #f95656 0%, #f1bf4c 100%);
+  opacity: 91%;
+}
+.btn {
+  margin-top: 5px;
+}
+.BoxFather {
+  height: fit-content;
+  width: 400px;
+  padding: 40px;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.BoxFather1 {
+  height: 450px;
+  width: 610px;
+  padding: 40px;
+  border-radius: 50px;
+  margin-top: -590px;
+  margin-left: 600px;
+  background-color: aliceblue;
+  opacity: 10%;
+}
+.BoxFather2 {
+  height: auto;
+  width: 610px;
+  padding: 40px;
+  border-radius: 50px;
+  margin-top: -530px;
+  margin-left: 600px;
+  text-align: center;
+}
+.ufasaurio {
+  height: auto;
+  width: 610px;
+  padding: 40px;
+  border-radius: 50px;
+  margin-top: -530px;
+  margin-left: 600px;
+  text-align: center;
+}
+
+.UFA {
+  margin-top: 60px;
+  margin-left: 150px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
